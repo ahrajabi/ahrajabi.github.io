@@ -17,6 +17,6 @@ selected_papers: false
 social: false
 ---
 
-I'm Amir (امیرحسین رجبی), a Data Scientist at TESCO with a PhD from the Technical University of Denmark. My expertise lies in computer science and probabilities, with published research on randomized search heuristics and metaheuristics. 
+I'm Amir (امیرحسین رجبی), a Data Scientist at TESCO with a PhD from the Technical University of Denmark. My expertise lies in computer science and probabilities, with published research on randomized search heuristics and metaheuristics.
 
 In my free time, I enjoy exploring the latest research and experimenting with new technologies.

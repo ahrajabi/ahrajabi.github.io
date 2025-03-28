@@ -6,38 +6,12 @@ description: "How LLMOPT is revolutionizing access to complex optimization techn
 tags: [optimization, AI, large language models, LLMOPT, democratization, mathematical modeling, operations research, decision-making, accessibility]
 categories: [technology, artificial intelligence, optimization, data science]
 featured: true
-image: 
-  path: https://placehold.co/1200x900/3d4db7/ffffff?text=LLMOPT+Democratizing+Optimization
-  alt: "LLMOPT democratizing complex optimization techniques through AI"
-toc:
-  sidebar: left
-structured_data:
-  "@context": "https://schema.org"
-  "@type": "BlogPosting"
-  headline: "LLMOPT: Democratizing Optimization Through Large Language Models"
-  image: "https://placehold.co/1200x900/3d4db7/ffffff?text=LLMOPT+Democratizing+Optimization"
-  datePublished: "2025-03-28T10:00:00+00:00"
-  dateModified: "2025-03-28T10:00:00+00:00"
-  author:
-    "@type": "Person"
-    name: "Amir Rajabi"
-  publisher:
-    "@type": "Organization"
-    name: "Amir Rajabi's Blog"
-    logo:
-      "@type": "ImageObject"
-      url: "https://ahrajabi.github.io/assets/img/profile.jpg"
-  description: "How LLMOPT is revolutionizing access to complex optimization techniques by translating business problems into precise mathematical formulations using AI."
-  mainEntityOfPage:
-    "@type": "WebPage"
-    "@id": "https://ahrajabi.github.io/blog/2025/LLMOPT-Democratizing-Optimization-Through-Large-Language-Models/"
-  keywords: "optimization, AI, large language models, LLMOPT, democratization, mathematical modeling, operations research"
+disqus_comments: true
 ---
 
 For years, powerful optimization techniques have remained locked behind complex mathematical notation and specialized programming knowledge—a situation I've witnessed firsthand throughout my career in optimization and metaheuristics. Large language models (LLMs) have already revolutionized content creation and programming assistance, but their latest application might be the most transformative yet: making sophisticated optimization accessible to everyone.
 
 Enter LLMOPT—a framework that translates everyday business problems into precisely formulated optimization models without requiring specialized expertise. I believe this (besides a few other publications in the past) represents a pivotal moment in how we approach complex decision-making across industries.
-
 
 ## Why Optimization Matters (But Remains Underutilized)
 
@@ -77,7 +51,7 @@ The heart of LLMOPT is what they call the "five-element formulation" for definin
 This is not something new, and these elements are already well-defined in the literature. But the question is whether we really need to have the same approach when communicating with LLMs rather than mathematicians (I'll share my view later in this post).
 
 {% include figure.liquid loading="eager" path="assets/img/blog/llmopt/llmopt_five_elem_eg.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-*Figure 2: Example of LLMOPT's five-element formulation for a resource allocation problem. Source: [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://arxiv.org/abs/2410.13213)*
+_Figure 2: Example of LLMOPT's five-element formulation for a resource allocation problem. Source: [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://arxiv.org/abs/2410.13213)_
 
 Let me show you what I mean with a resource allocation problem:
 
@@ -127,7 +101,7 @@ This approach distinguishes between desirable (correct) and undesirable (incorre
 ### Self-Correction: Automating the Optimization Debugging Cycle
 
 {% include figure.liquid loading="eager" path="assets/img/blog/llmopt/llmopt_overview.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-*Figure 2: Overview of the LLMOPT framework for learning to define and solve optimization problems. Source: [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://arxiv.org/abs/2410.13213)*
+_Figure 2: Overview of the LLMOPT framework for learning to define and solve optimization problems. Source: [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://arxiv.org/abs/2410.13213)_
 
 Perhaps what excites me most about LLMOPT is its self-correction capability. My approach is usually to use an iterative approach to debugging solutions:
 
@@ -168,11 +142,12 @@ These can then be referenced in the objective:
 
 ```
 ## Objective:
-minimize sum(i in WAREHOUSES, j in STORES) Transportation_Cost(i,j) + 
+minimize sum(i in WAREHOUSES, j in STORES) Transportation_Cost(i,j) +
          carbon_tax * sum(i in WAREHOUSES, j in STORES) Carbon_Emissions(i,j)
 ```
 
 I've found this modular approach offers substantial benefits:
+
 - Complex models become much more readable
 - Changes to calculation logic stay isolated
 - Domain experts can verify individual components
@@ -216,6 +191,5 @@ For those interested in exploring this topic further, here are some valuable res
 
 - [LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch](https://arxiv.org/abs/2410.13213) - The original research paper
 - [ICLR 2025 Conference Papers](https://iclr.cc/) - Where LLMOPT was first presented
-
 
 <!-- *Have you experimented with AI for optimization problems? I'd love to hear about your experiences in the comments below.* -->
