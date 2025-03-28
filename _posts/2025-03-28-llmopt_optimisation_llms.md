@@ -6,7 +6,7 @@ description: "How LLMOPT is revolutionizing access to complex optimization techn
 tags: [optimization, AI, large language models, LLMOPT, democratization, mathematical modeling, operations research, decision-making, accessibility]
 categories: [technology, artificial intelligence, optimization, data science]
 featured: true
-disqus_comments: true
+disqus_comments: false
 ---
 
 For years, powerful optimization techniques have remained locked behind complex mathematical notation and specialized programming knowledge—a situation I've witnessed firsthand throughout my career in optimization and metaheuristics. Large language models (LLMs) have already revolutionized content creation and programming assistance, but their latest application might be the most transformative yet: making sophisticated optimization accessible to everyone.
